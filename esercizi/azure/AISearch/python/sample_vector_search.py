@@ -32,6 +32,7 @@ index_name = os.environ["AZURE_SEARCH_INDEX_NAME"]
 key = os.environ["AZURE_SEARCH_API_KEY"]
 
 
+
 def get_embeddings(text: str):
     # There are a few ways to get embeddings. This is just one example.
     import openai
